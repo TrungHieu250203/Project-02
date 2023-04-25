@@ -1,0 +1,171 @@
+@media (max-width: 1199.98px) {
+    .header {
+       width: 930px;
+    }
+
+    .navbar a:first-child {
+        padding-left: 20px;
+    }
+
+    .navbar a {
+        margin-left: 25px;
+    }
+}
+
+@media (max-width: 991.98px) { 
+    .header {
+        width: 690px;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .bars {
+        display: block;
+    }
+
+    .header-desc {
+        margin-top: 350px;
+    }
+
+    .header-desc p {
+        padding: 20px 0;
+    }
+
+    .card, .hero-right {
+        margin-top: 30px;
+    }
+
+    .hero-left img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .hero-img {
+        float: none;
+    }
+
+    .hero-img img {
+        display: block;
+        margin: 20px auto 0 auto;
+    }
+
+    .work-process {
+        height: calc(100vh + 80px);
+    }
+
+    .work-card_last, 
+    .team-card:last-child,
+    .plans-card:last-child {
+        margin-top: 30px;
+    }
+
+    .counter {
+        height: 70vh;
+    }
+
+    .blogs-card:last-child {
+        margin-top: 40px;
+    }
+
+    .form-right input {
+        width: 100%;
+    }
+
+    .form-right input:first-child {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .header {
+        width: 512px;
+    }
+
+    .header-desc {
+        margin-top: 200px;
+    }
+
+    .header-desc h1 {
+        font-size: 3rem;
+    }
+
+    .header-desc p {
+        font-size: 1.4rem;
+    }
+
+    .work-process {
+        height: calc(100vh + 300px);
+    }
+
+    .blogs-card img {
+        width: 80%;
+    }
+
+    .card-list {
+        margin-top: 420px;
+    }
+
+    .three {
+        margin-top: 30px;
+    }
+
+    .counter {
+        height: calc(100vh + 200px);
+    }
+}
+
+@media (max-width: 575.98px) {
+    .header {
+        width: calc(100% - 30px);
+    }
+
+    .header-desc {
+        margin-top: 200px;
+    }
+
+    .header-desc p {
+        font-size: 1.3rem;
+    }
+
+    .hero-left {
+        margin-left: -10px;
+    }
+
+    .hero-right h2 {
+        font-size: 2rem;
+    }
+    
+    .hero-right p {
+        font-size: 1.5rem;
+    }
+
+    .work-process {
+        height: calc(100vh + 500px);
+    }
+
+    .work-card p {
+        font-size: 1.3rem;
+    }
+
+    .blogs-card img {
+        width: 80%;
+    }
+    
+    .team-card p {
+        font-size: 1.3rem;
+    }
+
+    .form-left {
+        text-align: center;
+    }
+
+    .form-right {
+        padding-top: 50px;
+    }
+
+    .form-right input:first-child {
+        margin-right: 0;
+    }
+}
